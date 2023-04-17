@@ -4,5 +4,4 @@ tensorflow
 opencv-python 
 matplotlib   
 twilio 
-moviepy 
-librosa
+gunicorn
