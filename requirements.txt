@@ -6,4 +6,3 @@ matplotlib
 twilio 
 gunicorn
 boto3
-pickle
