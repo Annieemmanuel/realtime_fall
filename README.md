@@ -34,8 +34,11 @@ Install the required dependencies.
 pip install -r requirements.txt
 
 '''
-Run the fall detection system.
- python 
+
+## Configuration
+VIDEO_SOURCE: Set this to specify the source of the video stream (e.g., camera device index or video file path).
+S3_BUCKET_NAME: Set this to the name of your Amazon S3 bucket where the captured video segments will be uploaded.
+AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY: Set these with your AWS access key and secret access key, respectively, to authorize the upload to the S3 bucket.
 
 
 
